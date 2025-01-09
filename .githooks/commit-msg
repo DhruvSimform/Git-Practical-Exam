@@ -11,6 +11,7 @@ if [ ${#commit_msg} -le $min_length ]; then
   exit 1
 fi
 
+
 # Allow the commit if the message is valid
 exit 0
 
